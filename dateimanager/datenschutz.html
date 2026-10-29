@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – Irismetow Dateimanager</title>
+<style>
+  :root { --text: #1d1d1f; --muted: #5f6368; --accent: #b07d12; --bg: #ffffff; --card: #fff8e6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #ececec; --muted: #a8a8a8; --accent: #f2b01e; --bg: #15171c; --card: #24211a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2em; color: var(--accent); }
+  .stand { color: var(--muted); margin: 0 0 24px; }
+  .kurz { background: var(--card); border-radius: 12px; padding: 16px 20px; }
+  .kurz ul { margin: 0; padding-left: 20px; }
+  hr { border: none; border-top: 1px solid var(--muted); opacity: .3; margin: 48px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Datenschutzerklärung</h1>
+<p class="stand">App „Irismetow Dateimanager“ (Paket <code>de.irismetow.dateimanager</code>) · Stand: 29. Oktober 2026 · <a href="#en">English version below</a></p>
+
+<div class="kurz">
+  <strong>Kurz gesagt:</strong>
+  <ul>
+    <li>Die App erhebt, speichert und überträgt <strong>keine personenbezogenen Daten</strong> an uns oder Dritte.</li>
+    <li>Die App hat <strong>keinen Internetzugang</strong> (keine Internet-Berechtigung).</li>
+    <li>Keine Werbung, keine Analyse- oder Tracking-Dienste, kein Benutzerkonto.</li>
+    <li>Alles, was die App speichert, bleibt auf deinem Gerät.</li>
+  </ul>
+</div>
+
+<h2>1. Verantwortlicher</h2>
+<p>
+  Wjatscheslaw Irismetow · Irismetow Capital<br>
+  <!-- ADRESSE (optional, wird so NICHT angezeigt): Für eine spätere Geschäfts- oder c/o-Adresse die Zeile
+       darunter ausfüllen und die Kommentar-Klammern in der Zeile hier und zwei Zeilen tiefer entfernen.
+  [Straße Hausnummer], [PLZ Ort], Deutschland<br>
+  -->
+  E-Mail: <a href="mailto:irismetoww@gmail.com">irismetoww@gmail.com</a>
+</p>
+<p>
+  Da diese App keinerlei personenbezogene Daten verarbeitet, erfolgt die Kontaktaufnahme in Datenschutzfragen
+  ausschließlich per E-Mail. Anfragen werden zeitnah beantwortet.
+</p>
+
+<h2>2. Keine Datenerhebung, kein Internet</h2>
+<p>
+  Der Irismetow Dateimanager ist eine reine Offline-App zum Verwalten der Dateien auf deinem Gerät. Die App fordert
+  keine Internet-Berechtigung an und kann deshalb keine Daten über das Internet senden oder empfangen. Es werden keine
+  Nutzungsstatistiken, Absturzberichte, Gerätekennungen, Standortdaten oder sonstige Informationen erhoben oder
+  an uns oder Dritte übermittelt. Es sind keine Werbe-, Analyse- oder Tracking-Bibliotheken enthalten.
+</p>
+
+<h2>3. Berechtigungen und wofür sie gebraucht werden</h2>
+<ul>
+  <li><strong>Zugriff auf alle Dateien</strong> – Kernfunktion eines Dateimanagers: Dateien und Ordner anzeigen, öffnen,
+    kopieren, verschieben, umbenennen, packen, entpacken, löschen und den Speicherplatz analysieren. Die Dateien werden
+    ausschließlich auf deinem Gerät verarbeitet.</li>
+  <li><strong>Liste der installierten Apps</strong> – für die Funktion „Apps“: installierte Apps mit Größe und Version
+    anzeigen und als Sicherungskopie (APK) speichern. Diese Liste verlässt dein Gerät nicht.</li>
+  <li><strong>Apps installieren und deinstallieren</strong> – nur wenn du selbst eine APK-Datei antippst bzw. eine App
+    deinstallieren möchtest. Android fragt dabei jedes Mal selbst um deine Bestätigung.</li>
+  <li><strong>Fingerabdruck</strong> (optional) – zum Entsperren der App und des Tresors. Deine Fingerabdruckdaten
+    bleiben vollständig im Android-System; die App erhält nur die Information „erkannt“ oder „nicht erkannt“.</li>
+  <li><strong>Netzwerkstatus anzeigen</strong> – wird automatisch von eingebundenen Android-Bibliotheken (Video-Player,
+    Vorschaubilder) mitgebracht. Damit kann nur abgefragt werden, ob eine Verbindung besteht; die App baut keine
+    Verbindungen auf und überträgt keine Daten.</li>
+</ul>
+
+<h2>4. Daten, die nur auf deinem Gerät gespeichert werden</h2>
+<ul>
+  <li>Einstellungen (z. B. Design, Sortierung), Favoriten und die Liste „Zuletzt geöffnet“.</li>
+  <li>Bei Nutzung von App-Sperre bzw. Tresor: ein Prüfwert deiner PIN bzw. deines Passworts – nie im Klartext, sondern
+    als abgeleiteter Wert (PBKDF2).</li>
+  <li>Tresor: Dateien, die du in den Tresor legst, werden mit AES-256 verschlüsselt im Ordner <code>.Tresor</code> auf
+    deinem Gerät gespeichert. Ohne deine PIN bzw. dein Passwort kann niemand – auch wir nicht – sie wiederherstellen.</li>
+  <li>Papierkorb: Gelöschte Dateien liegen 30 Tage im Ordner <code>.Papierkorb</code> und werden danach automatisch entfernt.</li>
+</ul>
+<p>
+  Beim Deinstallieren der App löscht Android die Einstellungen. Die Ordner <code>.Tresor</code> und <code>.Papierkorb</code>
+  liegen im allgemeinen Speicher und bleiben erhalten, bis du sie selbst löschst.
+</p>
+
+<h2>5. Teilen und Öffnen mit anderen Apps</h2>
+<p>
+  Wenn du eine Datei über „Teilen“ oder „Öffnen mit …“ an eine andere App gibst (z. B. Quick Share, E-Mail, Messenger),
+  geschieht das nur auf deine ausdrückliche Aktion hin. Für die Verarbeitung durch diese App gelten deren
+  Datenschutzbestimmungen.
+</p>
+
+<h2>6. Kinder</h2>
+<p>Die App richtet sich nicht gezielt an Kinder und erhebt auch von Kindern keine Daten.</p>
+
+<h2>7. Deine Rechte</h2>
+<p>
+  Da wir keine personenbezogenen Daten von dir erhalten, können wir dazu auch keine Auskunft geben, nichts berichtigen
+  oder löschen – alle Daten liegen allein auf deinem Gerät und unterliegen deiner Kontrolle. Bei Fragen zum Datenschutz
+  erreichst du uns unter der oben genannten E-Mail-Adresse. Du hast außerdem das Recht, dich bei einer
+  Datenschutz-Aufsichtsbehörde zu beschweren.
+</p>
+
+<h2>8. Änderungen</h2>
+<p>
+  Sollte sich die App so ändern, dass Daten verarbeitet werden, passen wir diese Erklärung vorher an. Es gilt die jeweils
+  hier veröffentlichte Fassung.
+</p>
+
+<hr>
+
+<h1 id="en">Privacy Policy</h1>
+<p class="stand">App “Irismetow Dateimanager” (package <code>de.irismetow.dateimanager</code>) · Last updated: 29 October 2026</p>
+
+<div class="kurz">
+  <strong>In short:</strong>
+  <ul>
+    <li>The app does <strong>not collect, store or transmit any personal data</strong> to us or any third party.</li>
+    <li>The app has <strong>no internet access</strong> (no internet permission).</li>
+    <li>No ads, no analytics or tracking, no user account.</li>
+    <li>Everything the app stores stays on your device.</li>
+  </ul>
+</div>
+
+<h2>1. Controller</h2>
+<p>
+  Wjatscheslaw Irismetow · Irismetow Capital<br>
+  <!-- ADDRESS (optional), same as in the German part above:
+  [Straße Hausnummer], [PLZ Ort], Germany<br>
+  -->
+  E-mail: <a href="mailto:irismetoww@gmail.com">irismetoww@gmail.com</a>
+</p>
+<p>
+  As this app does not process any personal data, privacy enquiries are handled by e-mail only.
+  We will reply promptly.
+</p>
+
+<h2>2. No data collection, no internet</h2>
+<p>
+  Irismetow Dateimanager is an offline file manager for the files on your device. It does not request the internet
+  permission and therefore cannot send or receive data over the internet. No usage statistics, crash reports, device
+  identifiers, location data or any other information is collected or shared. The app contains no advertising,
+  analytics or tracking libraries.
+</p>
+
+<h2>3. Permissions and why they are needed</h2>
+<ul>
+  <li><strong>All files access</strong> – core function of a file manager: browse, open, copy, move, rename, compress,
+    extract and delete files and analyse storage. Files are processed on your device only.</li>
+  <li><strong>List of installed apps</strong> – for the “Apps” feature: show installed apps with size and version and
+    save a backup copy (APK). This list never leaves your device.</li>
+  <li><strong>Install and uninstall apps</strong> – only when you tap an APK file or choose to uninstall an app.
+    Android always asks for your confirmation.</li>
+  <li><strong>Fingerprint</strong> (optional) – to unlock the app and the vault. Your fingerprint data stays entirely
+    within the Android system; the app only receives “recognised” or “not recognised”.</li>
+  <li><strong>View network state</strong> – added automatically by bundled Android libraries (video player, thumbnails).
+    It only allows checking whether a connection exists; the app does not open connections or transmit data.</li>
+</ul>
+
+<h2>4. Data stored only on your device</h2>
+<ul>
+  <li>Settings (e.g. theme, sorting), favourites and the “recently opened” list.</li>
+  <li>If you use the app lock or vault: a verifier of your PIN or password – never in plain text, but as a derived value (PBKDF2).</li>
+  <li>Vault: files you move into the vault are encrypted with AES-256 and stored in the <code>.Tresor</code> folder on your
+    device. Without your PIN or password nobody – including us – can recover them.</li>
+  <li>Recycle bin: deleted files are kept for 30 days in the <code>.Papierkorb</code> folder and then removed automatically.</li>
+</ul>
+<p>
+  When you uninstall the app, Android deletes its settings. The <code>.Tresor</code> and <code>.Papierkorb</code> folders are
+  located in shared storage and remain until you delete them yourself.
+</p>
+
+<h2>5. Sharing and opening with other apps</h2>
+<p>
+  When you pass a file to another app via “Share” or “Open with …” (e.g. Quick Share, e-mail, messenger), this only
+  happens on your explicit action. That app’s privacy policy applies to its processing.
+</p>
+
+<h2>6. Children</h2>
+<p>The app is not directed at children and does not collect data from children.</p>
+
+<h2>7. Your rights</h2>
+<p>
+  As we do not receive any personal data from you, there is nothing for us to disclose, correct or delete – all data
+  stays on your device under your control. For privacy questions, contact us at the e-mail address above. You also have
+  the right to lodge a complaint with a data protection supervisory authority.
+</p>
+
+<h2>8. Changes</h2>
+<p>
+  Should the app change in a way that involves processing data, we will update this policy beforehand. The version
+  published here applies.
+</p>
+
+</main>
+</body>
+</html>
